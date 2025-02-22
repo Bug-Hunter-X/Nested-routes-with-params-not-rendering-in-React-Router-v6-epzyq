@@ -1,0 +1,1 @@
+This repository demonstrates a bug in React Router v6 where nested routes with parameters fail to render correctly. The issue occurs when a nested route attempts to access parameters within a parent route's path.  The solution involves refactoring the route structure to utilize the useSearchParams hook.
